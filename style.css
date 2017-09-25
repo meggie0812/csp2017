@@ -1,5 +1,6 @@
 body {
- background-color: #5D535E;
+ margin:0;
+ background-color: #98DBC6;
  font:50%;
  color: #FFFFFF;
 }
@@ -14,9 +15,10 @@ a {
  font-size: 20px
  }
 p {
- color: #FFFFFF;
+  color: #5D535E;
  text-align: left;
  font-size: 25px;
+   font-family: 'Raleway';
  
 }
 img {
@@ -24,4 +26,22 @@ img {
     border-radius: 0px;
     padding: 0px;
     height: 300px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #F18D9C;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+   font-family: 'Raleway';
 }
